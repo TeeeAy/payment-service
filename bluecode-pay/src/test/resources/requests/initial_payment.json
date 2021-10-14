@@ -1,0 +1,7 @@
+{
+  "merchant_tx_id": "paymentId",
+  "barcode": null,
+  "currency": "EUR",
+  "branch_ext_id": "test",
+  "requested_amount": 1000
+}

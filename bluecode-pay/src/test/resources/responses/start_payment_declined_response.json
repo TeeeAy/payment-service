@@ -1,0 +1,8 @@
+{
+  "result": "OK",
+  "payment": {
+    "state": "DECLINED",
+    "code": "LIMIT_EXCEEDED",
+    "acquirer_tx_id": "acquirerId"
+  }
+}
