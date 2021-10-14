@@ -1,0 +1,4 @@
+# Project exclude paths
+/payment-backend-service/target/
+/payment-backend-template/target/
+/.idea
