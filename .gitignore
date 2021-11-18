@@ -2,3 +2,5 @@
 /payment-backend-service/target/
 /payment-backend-template/target/
 /.idea
+/*/*.iml
+*.iml

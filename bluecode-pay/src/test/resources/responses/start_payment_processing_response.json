@@ -1,0 +1,8 @@
+{
+  "result": "PROCESSING",
+  "status": {
+    "merchant_tx_id": "paymentId",
+    "check_status_in": 1000,
+    "ttl": 5000
+  }
+}

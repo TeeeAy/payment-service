@@ -1,0 +1,11 @@
+{
+  "result": "OK",
+  "payment": {
+    "state": "APPROVED",
+    "merchant_tx_id": "paymentId",
+    "acquirer_tx_id": "acquirerId",
+    "total_amount": 1000,
+    "requested_amount": 1000,
+    "currency": "EUR"
+  }
+}

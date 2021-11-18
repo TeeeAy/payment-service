@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="5" author="antanina_alesenka">
+        <createTable tableName="bluecode_payment">
+            <column name="id" type="varchar">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="status" type="varchar(255)"/>
+            <column name="acquirer_tx_id" type="varchar(255)"/>
+            <column name="barcode" type="varchar(255)"/>
+            <column name="currency" type="varchar(255)"/>
+            <column name="requested_amount" type="int"/>
+        </createTable>
+        <rollback>
+            <dropTable tableName="bluecode_payment"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>
